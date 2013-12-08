@@ -12,7 +12,7 @@
 	<p>
 		<?php
 			$address1 = "McIntire Department of Art\nUniversity of Virginia\nCharlottesville, VA 22903";
-			echo "$address1";
+			echo $address1;
 		?>
 	</p>
 </body>
