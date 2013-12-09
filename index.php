@@ -27,6 +27,11 @@
 		}
 	?>
 
+	<form action="catsrule.php" method = "POST">
+		Enter your name: <input type="text" name="name"><br />
+		<input type="submit" value = "Click me for awesomeness">
+	</form>
+
 </body>
 
 </html>
