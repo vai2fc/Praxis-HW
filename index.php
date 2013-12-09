@@ -71,7 +71,13 @@
 			echo ytos($second) . "<br/>";
 	?>
 
-	
+	<h1>Time-Traveller Greetings Generator</h1>
+	<form action="time_greetings.php" method = "GET">
+		Enter your name: <input type = "text" name = "name"><br />
+		From what year did you arrive? <input type = "text" name = "date"><br />
+		<input type = "submit" value = "Click me for greetings">
+	</form>
+
 </body>
 
 </html>
