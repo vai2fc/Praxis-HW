@@ -11,7 +11,7 @@
         };   
     
     if ($denominator == 0) {
-    	echo "Your result is: " . $numerator;
+    	echo "Why are you trying to divide by 0? Are you trying to break me? This is all you get: " . $numerator;
     }
     else {
     	echo "Your result is: " . divide($numerator, $denominator);
