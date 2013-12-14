@@ -78,6 +78,22 @@
 		<input type = "submit" value = "Click me for greetings">
 	</form>
 
+	<h1>Multiply the Fun</h1>
+	<form action="multiply.php" method = "GET">
+		First number: <input type = "number" name = "number_1"><br />
+		Second number: <input type = "number" name = "number_2"><br />	
+		<input type = "submit" value = "Multiply!">
+	</form>
+    
+    <h1>Divide and Conquer</h1>
+    <form action = "divide.php" method = "POST">
+    	Numerator: <input type = "number" name = "numerator"><br />
+    	Denominator: <input type = "number" name = "denominator"><br />
+    	<input type = "submit" value = "Divide!">
+    </form>
+
+
+
 </body>
 
 </html>
