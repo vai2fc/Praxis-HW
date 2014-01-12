@@ -92,7 +92,48 @@
     	<input type = "submit" value = "Divide!">
     </form>
 
+    <h1>For the mathematically challenged, which is greater?</h1>
+    <form action = "compare.php" method = "GET">
+    	First number: <input type = "number" name = "number_1"><br />
+    	Second number: <input type = "number" name = "number_2"><br />
+    	<input type = "submit" value = "Compare">
+    </form>
 
+    <h1>Stringing Me Along</h1>
+    <form action = "string_length.php" method = "GET">
+    	Enter some text here: <input type = "string" name = "string_1"><br />
+    	<input type = "submit" value = "String Theory">
+    </form>
+
+    <h1>The Average-vengers</h1>
+    <form action = "averages.php" method = "GET">
+    	Enter numbers to be averaged here, separated by a space (e.g. 4 5 8): <input type = "string" name = "list_o_nums"><br />
+    	<input type = "submit" value = "Average 'em">
+    </form>
+
+    <h1>Testing My Patience</h1>
+    <form action = "auto_grader.php" method = "GET">
+    	Exam grades, separated by a space: <input type = "string" name = "exam_grades">
+    	<input type = "submit" value = "calculate grade">
+    </form>
+    
+    <h1>FizzBuzz Lightyear</h1>
+    <form action = "fizz_buzz.php">
+    	Click here.
+    	<input type = "submit" value = "Go">
+    </form>
+
+    <h1>Large Numbers</h1>
+    <form action = "madeuplandia.php">
+    	Click here.
+    	<input type = "submit" value = "Go">
+    </form>
+
+    <h1>Even Larger Numbers</h1>
+    <form action = "fibon.php">
+    	Click here.
+    	<input type = "submit" value = "Go">
+    </form>
 
 </body>
 
